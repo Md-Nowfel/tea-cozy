@@ -4,7 +4,7 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
@@ -64,4 +64,38 @@ header {
 }
 .header-content h2 {
     margin-bottom: .7rem;
+}
+
+/* main section  */
+main {
+    max-width: 1000px;
+    margin-top: 60px;
+    margin: 60px auto ;
+    text-align: center;
+}
+
+.main-content {
+    margin-bottom: 30px;
+
+}
+
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.food-desc {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 3rem;
+}
+
+.food-desc img {
+    width: 100%;
+}
+
+.food-desc p {
+  margin-top: .5rem;  
 }
