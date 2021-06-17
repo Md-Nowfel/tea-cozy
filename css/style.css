@@ -99,3 +99,42 @@ main {
 .food-desc p {
   margin-top: .5rem;  
 }
+
+/* locatin section stars  */
+section.location {
+    text-align: center;
+    height: 500px;
+    width: 95%;
+    margin: 40px auto;
+    padding: 80px 0;
+    background: url("../assets/images/img-locations-background.webp") no-repeat;
+    background-size: bottom;
+    opacity: .9;
+}
+
+section.location h2 {
+    margin-bottom: .8rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container:nth-child(2) {
+    margin: 0 2rem;
+}
+
+.box {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+}
+
+.box > * {
+    padding: .9rem;
+
+}
