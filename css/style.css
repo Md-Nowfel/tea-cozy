@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+h2, h3, h4, h5, p{
+    opacity: .9;
+}
 html {
   font-size: 20px;
 }
@@ -103,12 +106,13 @@ main {
 /* locatin section stars  */
 section.location {
     text-align: center;
-    height: 500px;
+    min-height: 500px;
     width: 95%;
     margin: 40px auto;
     padding: 80px 0;
     background: url("../assets/images/img-locations-background.webp") no-repeat;
-    background-size: bottom;
+    background-size: cover;
+    background-position: bottom;
     opacity: .9;
 }
 
@@ -119,7 +123,8 @@ section.location h2 {
 .container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
+    flex-wrap: wrap;
 
 }
 
@@ -132,9 +137,28 @@ section.location h2 {
     background-color: black;
     text-align: center;
     opacity: 1;
+    margin-bottom: 18px;
 }
 
 .box > * {
     padding: .9rem;
 
+}
+
+/* footer area starts  */
+footer {
+    text-align: center;
+    height: 200px;
+    padding: 20px 0;
+    margin: 0 auto;
+
+}
+
+.footer-content > * {
+    padding: .6rem;
+}
+
+.footer-copyright {
+    margin: 20px 0 0 20px;
+    text-align: left;
 }
