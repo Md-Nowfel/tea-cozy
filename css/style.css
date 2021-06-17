@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Montserrat;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  color: seashell;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+ul.nav-links li {
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  text-decoration: underline;
+}
